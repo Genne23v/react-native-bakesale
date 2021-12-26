@@ -17,7 +17,7 @@ class DealItem extends React.Component {
     const {deal} = this.props;
     return (
       <TouchableOpacity style={styles.deal} onPress={this.handlePress}>
-        <Image source={{url: this.props.deal.media[0]}} style={styles.image} />
+        <Image source={{url: deal.media[0]}} style={styles.image} />
         <View style={styles.info}>
           <Text style={styles.title}>{deal.title}</Text>
           <View style={styles.footer}>
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 16,
     fontWeight: 'bold',
-    marginBotttom: 5,
+    marginBottom: 5,
   },
   footer: {
     flexDirection: 'row',

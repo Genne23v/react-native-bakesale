@@ -12,6 +12,7 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8AABE5E42777EB6600543DE9 /* Bakesale.app in Resources */ = {isa = PBXBuildFile; fileRef = 13B07F961A680F5B00A75B9A /* Bakesale.app */; platformFilter = ios; };
 		8F04F7922FDA6439C2E0B10C /* libPods-Bakesale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B7020FC1A166099C610FCD /* libPods-Bakesale.a */; };
 		E9148E92FFC538B9D545BB1E /* libPods-Bakesale-BakesaleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6484812FD381881DED2361 /* libPods-Bakesale-BakesaleTests.a */; };
 /* End PBXBuildFile section */
@@ -114,7 +115,6 @@
 				63B1BAFAA54A0B0CF9B401A2 /* Pods-Bakesale-BakesaleTests.debug.xcconfig */,
 				86CB18410D84F8B63F1F3688 /* Pods-Bakesale-BakesaleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -245,6 +245,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				8AABE5E42777EB6600543DE9 /* Bakesale.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +484,8 @@
 			baseConfigurationReference = 05D3877FBC17B5FCAA5791EC /* Pods-Bakesale.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
@@ -509,6 +512,8 @@
 			baseConfigurationReference = 6CAC4DA58B847B1189AE5C68 /* Pods-Bakesale.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = Bakesale/Info.plist;
